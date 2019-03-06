@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="h-100">
+
+    <!-- Start your project here-->
+    <div class="row align-items-center">
+        <div class="col-6">
+            <div class="row">
+                <div class=" col-12 d-flex justify-content-center" contenteditable="true">
+                    <p id="heading" class="heading" contenteditable="true">Sample</p>
+                </div>
+                <div class="col-12 d-flex justify-content-center my-5">
+                    <button class="" onclick="fontplus()"><i class="fas fa-plus"></i></button>
+
+                    <buttton id="constant" class="mx-3" ondblclick="user()"></buttton>
+
+                    <button onclick="fontminus()">
+                        <i class="fas fa-minus"></i></button>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mb-5">
+                    <button onclick="colored()">
+                        <p>R</p>
+                    </button>
+                    <button class="mx-3" onclick="cologreen()">
+                        <p>G</p>
+                    </button><button onclick="coloblue()">
+                        <p>B</p>
+                    </button>
+                </div>
+                <div class="col-12 d-flex justify-content-center mb-5">
+                    <button onclick="backred()">
+                        <p>R</p>
+                    </button>
+                    <button class="mx-3" onclick="backgreen()">
+                        <p>G</p>
+                    </button><button onclick="backblue()">
+                        <p>B</p>
+                    </button>
+                </div>
+
+                <!--    padding part-->
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="pt">
+                        <button onclick="pt()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">PT</p>
+                        <button onclick="ptminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt mx-3">
+                        <button onclick="pr()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">PR</p>
+                        <button onclick="prminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt">
+                        <button onclick="pb()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">PB</p>
+                        <button onclick="pbminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pl ml-3">
+                        <button onclick="pl()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">PL</p>
+                        <button onclick="plminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <button onclick="pa()">
+                        <p><i class="fas fa-plus"></i></p>
+                    </button>
+                    <div class="pl all mx-3">
+                        <p class="text-center">PA</p>
+                    </div>
+                    <button onclick="paminus()">
+                        <p><i class="fas fa-minus"></i></p>
+                    </button>
+                </div>
+
+
+                <!--        margin portion-->
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class="pt">
+                        <button onclick="mt()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">MT</p>
+                        <button onclick="mtminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt mx-3">
+                        <button onclick="mr()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">MR</p>
+                        <button onclick="mrminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt">
+                        <button onclick="mb()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">MB</p>
+                        <button onclick="mbminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pl ml-3">
+                        <button onclick="ml()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">PL</p>
+                        <button onclick="mlminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <button onclick="ma()">
+                        <p><i class="fas fa-plus"></i></p>
+                    </button>
+                    <div class="pl all mx-3">
+                        <p class="text-center">MA</p>
+                    </div>
+                    <button onclick="maminus()">
+                        <p><i class="fas fa-minus"></i></p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!--        border radius-->
+
+        <div class="col-6">
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class="pt">
+                        <button onclick="bt()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">BTL</p>
+                        <button onclick="btminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt mx-3">
+                        <button onclick="br()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">BTR</p>
+                        <button onclick="brminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pt">
+                        <button onclick="bb()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">BLR</p>
+                        <button onclick="bbminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+
+                    <div class="pl ml-3">
+                        <button onclick="bl()">
+                            <p><i class="fas fa-plus"></i></p>
+                        </button>
+                        <p class="text-center">BBR</p>
+                        <button onclick="blminus()">
+                            <p><i class="fas fa-minus"></i></p>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <button onclick="ba()">
+                        <p><i class="fas fa-plus"></i></p>
+                    </button>
+                    <div class="pl all mx-3">
+                        <p class="text-center">BA</p>
+                    </div>
+                    <button onclick="baminus()">
+                        <p><i class="fas fa-minus"></i></p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
